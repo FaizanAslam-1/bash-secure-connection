@@ -7,10 +7,19 @@ This script creates a **secure encrypted connection** using `ncat` with SSL. It 
 ✔ Simple menu-based interaction  
 ✔ Works on Linux  
 
-## 📥 Installation
-Make sure `ncat` is installed:
+## 📥 Installation & Usage  
+Simply run the script:  
 ```bash
-sudo apt-get update && sudo apt install ncat -y
+./encryptedConnection.sh
+```
 
+If `ncat` is not installed, the script will automatically install it before running.
+
+## 📌 Requirements
+- Linux (Tested on Kali Linux)
+- `ncat` (Netcat with SSL support)
+
+## 👤 Author
+Developed by [Faizan Aslam](https://github.com/FaizanAslam-1).
 
 
