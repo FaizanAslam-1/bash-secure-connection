@@ -1,2 +1,16 @@
-# bash-secure-connection
-A Bash script for establishing secure SSL-encrypted connections using Ncat. Supports both sender and receiver modes.
+﻿# 🔒 Bash Secure Connection
+
+This script creates a **secure encrypted connection** using `ncat` with SSL. It allows you to send and receive connections easily.
+
+## 🚀 Features
+✔ Secure connection using SSL  
+✔ Simple menu-based interaction  
+✔ Works on Linux  
+
+## 📥 Installation
+Make sure `ncat` is installed:
+```bash
+sudo apt-get update && sudo apt install ncat -y
+
+
+
